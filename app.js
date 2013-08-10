@@ -23,7 +23,7 @@ app.directive('time', function() {
 				var h = scope.hour;
 				var n = scope.minute;
 				var g = scope.glow;
-				//scope.glowClass="yellow";
+				scope.glowClass="yellow";
 				switch (true){
 					case (n>=0 && n<5) && (g=="h"):
 					scope.glowClass="red";
