@@ -10,7 +10,6 @@ app.directive('time', function() {
 	scope: {
             text: '@text',
             glow: '=',
-			match: '=',
 			hour: '=',
 			minute: '='
         },
