@@ -59,7 +59,6 @@ app.directive('time', function() {
 					scope.glowClass="red";h++;
 					break;
 				}
-				
 				if(scope.glow==h || scope.text=="It Is" ){
 					scope.glowClass="red";
 					//console.log(attrs.glow+" "+attrs.hour+" "+attrs.minute);
