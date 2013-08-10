@@ -2,19 +2,19 @@
 	<div>
 		<div time text="It Is" glow="green" hour="hour" minute="minute"></div>
 		<div time text="Half" glow="30"  hour="hour" minute="minute"></div>
-		<div time text="Ten" glow="10"  hour="hour" minute="minute"></div>
+		<div time text="Ten" glow="'ten'"  hour="hour" minute="minute"></div>
 	</div>
 	<div>
-		<div time text="Quarter" glow="15"  hour="hour" minute="minute"></div>
+		<div time text="A Quarter" glow="'a'"  hour="hour" minute="minute"></div>
 		<div time text="Twenty" glow="20"  hour="hour" minute="minute"></div>
 	</div>
 	<div>
-		<div time text="Five" glow="5"  hour="hour" minute="minute"></div>
-		<div time text="Minutes" glow="m"  hour="hour" minute="minute"></div>
-		<div time text="To" glow="m"  hour="hour" minute="minute"></div>
+		<div time text="Five" glow="'f'"  hour="hour" minute="minute"></div>
+		<div time text="Minutes" glow="'m'"  hour="hour" minute="minute"></div>
+		<div time text="To" glow="'t'"  hour="hour" minute="minute"></div>
 	</div>
 	<div>
-		<div time text="Past" glow="m"  hour="hour" minute="minute"></div>
+		<div time text="Past" glow="'p'"  hour="hour" minute="minute"></div>
 		<div time text="One" glow="1"  hour="hour" minute="minute"></div>
 		<div time text="Three" glow="3"  hour="hour" minute="minute"></div>
 	</div>
@@ -35,10 +35,10 @@
 	</div>
 	<div>
 		<div time text="Twelve" glow="12"  hour="hour" minute="minute"></div>
-		<div time text="O'Clock" glow="m"  hour="hour" minute="minute"></div>
+		<div time text="O'Clock" glow="'h'"  hour="hour" minute="minute"></div>
 	</div>
 	<input ng-model="ten" />
-	<input ng-model="minute" />
+	<input ng-model="minute" ng-change="changed();" />
 	<div>{{showdate}}</div>
 	<div>{{hour}}:HOUR</div>
 	<div>{{minute}}:MINUTE</div>
