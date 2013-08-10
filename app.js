@@ -52,7 +52,7 @@ app.directive('time', function() {
 					case (n>=41 && n<49) && (g=="a" || g=="t"):
 					scope.glowClass="red";h++;
 					break;
-					case (n>=50 && n<55) && (g=="ten" || g=="m" || g=="t"):
+					case (n>=49 && n<55) && (g=="ten" || g=="m" || g=="t"):
 					scope.glowClass="red";h++;
 					break;
 					case (n>=55 && n<=60) && (g=="f" || g=="m" || g=="t"):
