@@ -19,6 +19,7 @@
 h1{
 	display:inline;
 	line-height:55%;
+	text-shadow:2px 2px white;
 }
 body{
     background-color:black;
